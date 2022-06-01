@@ -45,10 +45,36 @@
         display: inline-block;
         padding: 20px 35px;
     }
+
+    nav{
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        padding: 0px 40px;
+    }
+    a{
+        display: inline-block;
+        text-decoration: none;
+        color: cornsilk;
+        font-size: 20px;
+        
+    }
+    a:last-child{
+        margin-left: auto;
+        background-color: brown;
+        padding: 10px 20px;
+        font-family: sans-serif;
+        text-transform: uppercase; 
+    }
 </style>
 
 <body>
-    <nav style="background-color: rgb(4, 10, 4); color: white;">NAV</nav>
+    <nav style="background-color: rgb(4, 10, 4); color: white;">
+        <a href="">home</a>
+        <a href="">add</a>
+        <a href="">email</a>
+        <a href="">trash</a>
+    </nav>
     <header style="background-color: rgb(79, 0, 99);color: white;">Header</header>
     <main style="background-color: rgb(68, 68, 68);color: white;">
         <button class="email">emai1</button>
